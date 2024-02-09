@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JMC Terrassement</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1 style="font-family: 'Montserrat', sans-serif; text-shadow: 2px 2px #ff7f50;">JMC Terrassement</h1>
+        <nav>
+            <ul>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#about">À propos</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="services">
+         
+      <h2>Services que nous offrons</h2>
+    <p>Chez JMC Terrassement, nous comprenons l'importance d'un terrain bien préparé et aménagé. Notre équipe d'experts vous propose une gamme complète de services pour transformer votre espace extérieur, avec la promesse d'un travail réalisé à la perfection. De la première évaluation à la finalisation du projet, nous nous engageons à offrir une qualité irréprochable et un service client inégalé. Et parce que nous valorisons la transparence et la confiance, nous offrons des <strong>devis gratuits</strong> pour tous nos services, vous permettant de planifier votre projet en toute sérénité.</p>
+    <div class="service-container">
+        <!-- Service 1 : Viabilisation de Terrain -->
+        <div class="service">
+            <img src="chemin_vers_image_service_viabilisation.jpg" alt="Viabilisation de Terrain">
+            <div class="service-description">
+                <h3>Viabilisation de Terrain</h3>
+                <p>Préparez votre terrain pour la construction avec nos services de viabilisation. Nous nous occupons de tout, des tranchées à la mise en place de canalisations, en garantissant une base solide pour vos projets de construction.</p>
+            </div>
+        </div>
+        <!-- ... autres services ... -->
+    </div>
+</section>
+
+        </section>
+        <section id="about">
+    <h2>À Propos de Nous</h2>
+    <div class="about-content">
+        <img src="image_de_votre_entreprise.jpg" alt="Votre Entreprise" class="about-img">
+        <div class="about-text">
+            <h3>Qui Sommes-Nous ?</h3>
+            <p>JMC Terrassement est une entreprise spécialisée dans les travaux de terrassement et d'aménagement paysager. Fondée en 200X par [Nom du Fondateur], nous avons à cœur de réaliser des projets qui allient qualité, respect de l'environnement et satisfaction client.</p>
+            <p>Notre équipe, composée de professionnels expérimentés, est passionnée par la transformation des espaces extérieurs et s'engage à offrir un service à la hauteur de vos attentes pour tous vos projets, qu'ils soient grands ou petits.</p>
+            <p>Nous opérons dans la région de Sens et couvrons un rayon de 100 km autour du sud de la Seine-et-Marne, en mettant à votre disposition notre savoir-faire et notre expérience pour concrétiser vos projets.</p>
+            
+            <h3>Nos Valeurs</h3>
+            <ul>
+                <li>Engagement Qualité : Nous mettons un point d'honneur à fournir un travail de qualité supérieure, respectant les normes de sécurité et d'environnement.</li>
+                <li>Satisfaction Client : Votre satisfaction est notre priorité. Nous travaillons en étroite collaboration avec vous pour garantir que le projet final dépasse vos attentes.</li>
+                <li>Respect de l'Environnement : Nous adoptons des pratiques respectueuses de l'environnement, en veillant à minimiser l'impact de nos travaux sur la nature.</li>
+            </ul>
+        </div>
+    </div>
+</section>
+
+            
+            <p>Une brève introduction à votre entreprise et votre équipe.</p>
+        </section>
+        <section id="contact">
+            <h2>Contactez-nous</h2>
+            <form id="contact-form">
+                <input type="text" id="name" name="name" placeholder="Votre nom" required>
+                <input type="email" id="email" name="email" placeholder="Votre email" value="jmc-terra@gmail.com" required>
+                <input type="tel" id="phone" name="phone" placeholder="Votre numéro de téléphone" value="0685114736" required>
+                <textarea id="message" name="message" placeholder="Votre message" required></textarea>
+                <button type="submit">Envoyer</button>
+            </form>
+        </section>
+        <section id="location">
+            <h2>Où nous trouver</h2>
+            <div id="googleMap" style="width:100%;height:400px;"></div>
+        </section>
+        <section id="appointment">
+            <h2>Réservez un Rendez-vous</h2>
+            <iframe src="https://calendar.google.com/calendar/embed?src=your_calendar_id&ctz=Europe%2FParis" style="border: 0" width="800" height="600" frameborder="0" scrolling="no"></iframe>
+        </section>
+    </main>
+    <footer>
+        <p>© 2024 JMC Terrassement. Tous droits réservés.</p>
+        <p>Tél: 0685114736 | Email: <a href="mailto:jmc-terra@gmail.com">jmc-terra@gmail.com</a></p>
+        <p>Adresse: 31 bis avenue de la gare, Sens et environ 100 km autour sud Seine-et-Marne</p>
+        <a href="https://www.instagram.com/yourusername" target="_blank">Suivez-nous sur Instagram</a>
+    </footer>
+    <script src="scripts.js"></script>
+    <script async defer src="https://maps.googleapis.com/maps/api/js?key=YOUR_KEY&callback=initMap"></script>
+</body>
+</html>
